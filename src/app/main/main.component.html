@@ -1,0 +1,25 @@
+
+<div class="main">
+    <p>{{textToShow}}</p>
+    <div *ngFor="let item of getArray">
+        <ul>
+            <li><span>Id: {{item.id}}</span></li>
+            <li> <span>User Id ={{item.userId}}</span></li>
+            <li> <span>Completed = {{item.completed}}</span></li>
+            <li> <span>tTitle ={{item.title}}</span></li>
+        </ul>
+        
+    </div>
+    <div>
+        <button class="btn1" (click)="api()">API Call</button>
+    </div>
+    <div *ngIf="_currentValue == 'css'">
+        <div class="sec-header">
+            <button class="btn1" (click)="onPrevious()">Previous</button>
+            <button class="btn1" (click)="onNext()">Next</button>
+        </div>
+        <div>
+    {{title}}
+        </div>
+    </div>
+</div>

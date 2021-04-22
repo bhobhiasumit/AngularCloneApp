@@ -1,0 +1,8 @@
+<div class="topnav">
+    <a [ngClass]="{'active' : selectedValue === 'html'}"  href="#Html" (click)="onClick('html')">HTML</a>
+    <a [ngClass]="{'active' : selectedValue === 'css'}" href="#CSS" (click)="onClick('css')">CSS</a>
+    <a [ngClass]="{'active' : selectedValue === 'js'}"  href="#jst" (click)="onClick('js')" >JAVA SCRIPT</a>
+    <a [ngClass]="{'active' : selectedValue === 'python'}"  href="#python" (click)="onClick('python')">Python</a>
+    <a  [ngClass]="{'active' : selectedValue === 'bootstrap'}" href="#bootstrap" (click)="onClick('bootstrap')">Bootstrap</a>
+    <a  [ngClass]="{'active' : selectedValue === 'sql'}" href="#sql" (click)="onClick('sql')">SQL</a>
+</div>

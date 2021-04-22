@@ -1,0 +1,32 @@
+.main{
+    height: 500px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black;
+    text-emphasis: bold;
+
+
+    padding-top: 60px;
+
+}
+.main1{
+    height: 500px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black;
+    text-emphasis: bold;
+    text-align: center;
+}
+.btn1{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}

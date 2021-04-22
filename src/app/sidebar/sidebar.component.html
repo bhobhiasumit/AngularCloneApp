@@ -1,0 +1,5 @@
+
+<div class="sidenav">
+    <a *ngFor="let item of sidebarItems; let i=index;" (click)="onclick(i)" [ngClass]="{'active' : selectedMenu === i}">{{item}}</a>
+    
+</div>
