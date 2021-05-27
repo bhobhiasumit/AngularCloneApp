@@ -30,3 +30,22 @@
     transition-duration: 0.4s;
     cursor: pointer;
 }
+.btn2{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 700px;
+    margin-top: 180px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#d1{
+    font-size: 20px;
+    padding: 15px 28px;
+}

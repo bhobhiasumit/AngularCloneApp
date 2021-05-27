@@ -1,6 +1,6 @@
 
 <div class="main">
-    <p>{{textToShow}}</p>
+    <p id="d1">{{textToShow}}</p>
     <div *ngFor="let item of getArray">
         <ul>
             <li><span>Id: {{item.id}}</span></li>
@@ -15,11 +15,12 @@
     </div>
     <div *ngIf="_currentValue == 'css'">
         <div class="sec-header">
+            <div id="d1">
+                {{title}}
+                    </div>
             <button class="btn1" (click)="onPrevious()">Previous</button>
-            <button class="btn1" (click)="onNext()">Next</button>
+            <button class="btn2" (click)="onNext()">Next</button>
         </div>
-        <div>
-    {{title}}
-        </div>
+        
     </div>
 </div>
